@@ -5,9 +5,9 @@ pipeline {
     }
 
     agent any
-	tools {
+	/*tools {
         	terraform 'terraform'
-    	      }
+    	      }*/
 
     stages {
         stage('Terraform version checking') {
